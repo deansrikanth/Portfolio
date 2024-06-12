@@ -1,0 +1,107 @@
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.hero__img {
+    margin: 10px;
+    display: inline;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
+.hero__text {
+    font-weight: 500;
+    font-size: 0.75em;
+}
+.hero__subtitle {
+    color:  rgb(85, 85, 85);
+}
+  
+.btn-color-1,
+.btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    }
+.btn:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.hero__socials-container {
+    margin-top: 10px;
+}
+
+.hero__socilas-icons {
+    display: inline;
+    cursor: pointer;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.about {
+    text-align: center;
+}
+
+
+.skills {
+    text-align: center;
+}
+
+.skills__container {
+    display: flex;
+    gap: 10px;
+}
+
+.skills__check-badge {
+    width: 1.25rem;
+    height: 1.25rem; 
+}
+
+.projects, .contact, .footer {
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+.footer__links{
+    text-decoration: none;
+    color: black;
+}
+
+.footer__links:hover {
+    text-decoration: underline;
+    color:  rgb(85, 85, 85);
+}
+/* @media (min-width: 475px) {
+} */
+/* @media (min-width: 640px) {
+} */
+
+@media (min-width: 768px) {
+    .hero__img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .skills__check-badge {
+        width: 2rem;
+        height: 2rem; 
+    }
+}
